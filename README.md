@@ -1,7 +1,7 @@
 # gabrielknot/ipnginx
 An simple debug image for kubernete. Your environiment variables will be exozed as an web page runnig above a nginx server.
 
-In your kubernetes mainifest you may have to add it:
+In your kubernetes mainifest deployment you may have to add it:
 ```console
 image: gabrielknot/ipnginx
 env:
